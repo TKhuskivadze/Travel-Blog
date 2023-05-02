@@ -6,3 +6,8 @@
     font-family: bold;
     src: url(../fonts/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+ @font-face {
+    font-family: 'Montserrat', sans-serif;
+ }
