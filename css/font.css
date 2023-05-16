@@ -11,3 +11,12 @@
  @font-face {
     font-family: 'Montserrat', sans-serif;
  }
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+ @font-face {
+    font-family: 'Playfair Display', serif;
+ }
+ @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+ @font-face {
+    font-family: 'Titillium Web', sans-serif;
+
+ }
