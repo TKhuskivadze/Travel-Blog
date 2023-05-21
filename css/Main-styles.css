@@ -77,6 +77,7 @@ header  .social  ul {
 main .main-image{
     width: 100%;
     height: 475px;
+    box-sizing: border-box;
     overflow: hidden;
     position: relative;
     display: flex;
@@ -442,7 +443,7 @@ footer {
  .cotact-forms  {
     width: 100%;
     height: 400px;
-     margin: -10px auto;
+     margin: -3.5px auto;
  
     background-color: rgba(46, 46, 46, 0.719);
     display: flex;

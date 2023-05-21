@@ -1,3 +1,337 @@
+@media screen and (max-width: 2000px){
+   .trevel-card-holder {
+      width: 60%;
+   }
+   
+}
+@media screen and (max-width: 1200px){
+   header .menu {
+      width: 35%;
+   }
+   header  .social {
+      width: 15%;
+   }
+   .trevel-card-holder {
+      width: 85%;
+   }
+   .baner-container {
+      width: 100%;
+   }
+   .contact-data {
+      margin-right: 1%;
+   }
+   .contact-container .img img  {
+      width: 150px;
+      height: 150px;
+   }
+}
+
+@media screen and (max-width: 992px){
+   header .menu {
+      width: 40%;
+      height: 100%;
+        
+  }
+  header  .social {
+   width: 20%;
+   height: 100%;
+   
+
+   }
+   main .main-image .main-image-text {
+      width: 55%;
+   }
+   .trevel-card-holder {
+      width: 90% ;
+   }
+   .trevel-cards  .trevel-card {
+      width: 230px;
+      box-sizing: border-box !important; 
+    
+   }
+   .banner {
+      height: 100px;
+   }
+   .baner-container  {
+      width: 100%;
+   }
+   .post-holder{
+      box-sizing: border-box !important; 
+      padding: 0  4% !important;
+   }
+   .image-cards  .image-card  img{
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+   }
+   .image-card-overlay {
+      font-size: 20px;
+   }
+   .contact-container {
+      margin-bottom: 5% !important;
+   }
+   .contact-container .img img {
+      width: 120px;
+      height: 120px;
+      margin-left: 30%;
+    }
+    .contact-data {
+      margin: 0;
+   }
+   .contact-info  input  {
+      width: 100%;
+   }
+   .contact-info  button {
+      width: 100%;
+   }
+   footer {
+      height: 600px;
+   }
+ 
+ 
+}
+@media screen and (max-width: 768px){
+    header .menu  {
+        width: 45%;
+    }
+    header  .social{
+        width: 20% !important;
+     }
+     .main-image-text {
+        width: 100% !important;
+         height: 100% !important;
+    }
+    .trevel-cards .trevel-text{
+        text-align: center;
+        box-sizing: border-box;
+        padding: 20px;
+  }
+  .trevel-card-holder {
+    width: 100%;
+  }
+  .trevel-cards  .trevel-card {
+    width: 245px;
+    box-sizing: border-box;
+   display: flex;
+   justify-content: space-around;   
+    height: 250px;
+    overflow: hidden;
+  }
+  .trevel-cards .trevel-card button {
+    padding: 10px 35px;
+  }
+  .banner {
+    width: 100%;
+  }
+  .baner-container{
+    width: 100%;
+  }
+ .social-networck  .social-network-holder {
+    width: 100% !important;
+  }
+
+  .image-cards {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+  }
+  .image-card {
+     width: 80% !important;
+      
+     margin: 0 auto;
+     padding: 5px 5px;
+     overflow: hidden;
+  }
+
+
+ 
+
+
+
+ .cotact-forms {
+    width: 100%;
+    height: 650px !important;
+ }
+ .contact-container{
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+     margin-bottom: 3% !important;
+     margin-right: 28% !important;
+      
+
+}
+.contact-data {
+    width: 100%;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     box-sizing: border-box;
+   
+    margin-top: 5% !important;
+    margin-left: 55% !important;
+ 
+   }
+   .cotact-forms .img  img{
+      
+    margin: 0 70% !important;
+ }
+
+ .contact-info {
+    width: 100%;
+    margin-top: 5% !important;
+    margin-left: 50% !important;
+
+   }
+   .contact-info h1{
+   
+    padding: 0 30% !important;
+   }
+   .contact-info input {
+    width: 100%;
+   }
+   .contact-info button {
+    width: 100%;
+   }
+
+
+
+  
+
+}
+@media screen and (max-width: 600px){
+ 
+    header .menu nav  {
+        display: none;
+  }
+  header .bi-list{
+     display: block !important;
+  }
+  header .menu {
+     width:  70%;      
+     display: flex;  
+     align-items: center;
+     
+ }
+  header  .social{
+     width: 35% !important;
+  }
+    main .main-image {
+        width: 100% !important;
+        box-sizing: border-box;
+
+    }
+    .main-image-text {
+        width: 100% !important;
+         height: 100% !important;
+    }
+    .trevel-cards .trevel-text{
+        text-align: center;
+        box-sizing: border-box;
+        padding: 20px;
+  }
+  .trevel-card-holder {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
+}
+.trevel-card {
+    margin: 2% 0;
+}
+
+.banner{
+     
+    margin: 0 auto;
+    max-width: 317px;
+    height: 100%;
+    box-sizing: border-box !important; 
+}
+.baner-container{
+     flex-direction: column;
+     
+     
+}
+.baner-container .feature, .trevel, .plane, .world ,.cloud {
+    margin: 5% 0;
+}
+.post .post-main-img {
+    height: 50% !important;
+ }
+ .post-main-contant{
+    height: 50% !important;
+ }
+ .post-holder{
+    box-sizing: border-box !important; 
+    padding: 0  4% !important;
+ }
+ .image-cards {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+  }
+  .image-card {
+     width: 100% !important;
+     margin: 0 auto;
+     padding: 5px 5px;
+     overflow: hidden;
+  }
+
+
+.social-network-holder{
+    
+   width: 100% !important;
+  
+}
+.cotact-forms {
+    width: 100%;
+    height: 650px !important;
+ }
+ .contact-container{
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+     margin-bottom: 3% !important;
+     margin-right: 28% !important;
+      
+
+}
+.contact-data {
+    width: 100%;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     box-sizing: border-box;
+   
+    margin-top: 5% !important;
+    margin-left: 45% !important;
+ 
+   }
+   .cotact-forms .img  img{
+      
+    margin: 0 45% !important;
+ }
+
+ .contact-info {
+    width: 100%;
+    margin-top: 5% !important;
+    margin-left: 50% !important;
+
+   }
+   .contact-info h1{
+   
+    padding: 0 12% !important;
+   }
+   .contact-info input {
+    width: 100%;
+   }
+   .contact-info button {
+    width: 100%;
+   }
+ 
+}
 @media screen and (max-width: 500px){
      header .menu nav  {
            display: none;
@@ -12,7 +346,7 @@
         
     }
      header  .social{
-        width: 30%;
+        width: 35% !important;
      }
 
     .main-image-text {
@@ -67,15 +401,22 @@
         box-sizing: border-box !important; 
         padding: 0  4% !important;
      }
-
-    .image-cards{ 
-         flex-direction: column;
-    }
-     .image-card{
-        width: 100%;
-         
-
+     .image-cards {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
      }
+     .image-card {
+        width: 100% !important;
+        margin: 0 auto;
+        padding: 5px 5px;
+        overflow: hidden;
+     }
+
+   
+  
+
+ 
      .social-network-holder{
          
         width: 100% !important;
@@ -133,11 +474,5 @@
     width: 100%;
    }
   
- 
-  
-    
-
- 
-
 }
 
